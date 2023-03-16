@@ -1,12 +1,28 @@
 {
   "pages": [
-    "pages/index/index"
+    "pages/index/index",
+    "pages/a/a"
   ],
   "window": {
     "navigationBarTextStyle": "black",
-    "navigationBarTitleText": "uni-app",
+    "navigationBarTitleText": "myapp",
     "navigationBarBackgroundColor": "#F8F8F8",
     "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "selectedColor": "#c00000",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "static/logo.png"
+      },
+      {
+        "pagePath": "pages/a/a",
+        "text": "a",
+        "iconPath": "static/logo.png"
+      }
+    ]
   },
   "usingComponents": {}
 }
